@@ -101,6 +101,10 @@ body {
   .fas{
     color: #000;
   }
+  .table{
+    color: #ffffff;
+    font-size: 25px;
+  }
  
 @media (min-width: 768px) {
     #sidebar-wrapper {
