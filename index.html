@@ -46,8 +46,9 @@
         <ul class="user-menu">
             <li><a href="#"><i class='bx bx-shopping-bag'></i></a></li>
             <li><a href="#"><i class='bx bx-search'></i></a></li>
-            <a href="" class="btn btn-brand ms-lg-3" data-bs-toggle="modal" data-bs-target="#buyer">Buyer</a>
-            <a href="" class="btn btn-brand ms-lg-3" data-bs-toggle="modal" data-bs-target="#seller">Seller</a>
+            <button type="button" class="btn btn-primary ms-lg-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                Registration
+            </button>
            <!--<a href="" class="btn btn-brand ms-lg-3" data-bs-toggle="modal" data-bs-target="#login">Login</a>--> 
             <button type="button" class="btn btn-primary ms-lg-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 login
@@ -1031,6 +1032,31 @@
       </div>
     </div>
   </div>
+
+   <!-- Modal-->
+   <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Notification:</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h1>Register As?</h1>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary ms-lg-3" data-bs-toggle="modal" data-bs-target="#buyer">
+                Buyer
+            </button>
+            <button type="button" class="btn btn-primary ms-lg-3" data-bs-toggle="modal" data-bs-target="#seller">
+                Seller
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
 
 
     <!-- app js -->
